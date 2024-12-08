@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h2 {
+            text-align: center;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Marquee Styling */
+        marquee {
+            font-size: 18px;
+            color: #fff;
+            background-color: #333;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        /* Table Styling */
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            text-align: center;
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        td {
+            background-color: #fff;
+            color: #333;
+            font-size: 16px;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover td {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Movie List</h2>
+
+    <!-- Scrolling marquee at the top -->
+    <marquee behavior="scroll" direction="left">Now Showing: The latest blockbuster movies in Tamil, English, Russian, and Japanese!</marquee>
+
+    <!-- Movie list table -->
+    <table>
+        <tr>
+            <th>Tamil Movies</th>
+            <th>English Movies</th>
+            <th>Russian Movies</th>
+            <th>Japanese Movies</th>
+        </tr>
+        <tr>
+            <td>Vikram</td>
+            <td>Inception</td>
+            <td>Leviathan</td>
+            <td>Spirited Away</td>
+        </tr>
+        <tr>
+            <td>Master</td>
+            <td>The Dark Knight</td>
+            <td>The Return</td>
+            <td>Ringu</td>
+        </tr>
+        <tr>
+            <td>Kaithi</td>
+            <td>Interstellar</td>
+            <td>Burnt by the Sun</td>
+            <td>Akira</td>
+        </tr>
+        <tr>
+            <td>Soorarai Pottru</td>
+            <td>Shawshank Redemption</td>
+            <td>Brother</td>
+            <td>My Neighbor Totoro</td>
+        </tr>
+    </table>
+
+</body>
+</html>
